@@ -1,16 +1,17 @@
 header {
-    height: 400px;
-    background-image: url('/Fonts/datacenter.jpeg');
+    height: 700px;
+    background-image: url('/Fonts/datacenter.jpg');
     background-size: cover;
     background-position: center;
 }
 
 header h1, p {
     text-align: center;
-    width: 750px;
-    color: #ccbcd1;
+    width: 900px;
+    color: lawngreen;
     position: relative;
     top: 300px;
+    left: 500px;
     font-size: 38px;
 }
 
@@ -32,3 +33,28 @@ header button {
 header button:hover {
     background-color: #45a049;
 }
+
+#about{
+    text-align: center;
+    width: 900px;
+    position: relative;
+
+    left: 500px;
+}
+
+#vps{
+    text-align: center;
+    width: 900px;
+    position: relative;
+    top: 300px;
+    left: 500px;
+}
+
+footer{
+    text-align: center;
+    width: 900px;
+    position: relative;
+    top: 900px;
+    left: 500px;
+}
+
