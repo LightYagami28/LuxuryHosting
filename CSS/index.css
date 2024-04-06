@@ -1,5 +1,5 @@
 header {
-    height: 700px;
+    height: 900px;
     background-image: url('/Fonts/datacenter.jpg');
     background-size: cover;
     background-position: center;
@@ -27,7 +27,7 @@ header button {
     cursor: pointer;
     position: relative;
     top: 310px;
-    left: 280px;
+    left: 850px;
 }
 
 header button:hover {
@@ -52,9 +52,64 @@ header button:hover {
 
 footer{
     text-align: center;
-    width: 900px;
+    width: 1860px;
+    height: 500px;
     position: relative;
-    top: 900px;
-    left: 500px;
+    top: 1000px;
+    background-color: dimgray;
+    p{
+    color: white;
+    font-size: 30px;
+}
+}
+
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
+
+.toggle-label {
+    font-family: Arial, sans-serif;
+    color: lawngreen;
+    cursor: pointer;
+}
+
+.dark-theme {
+    background-color: #222;
+    color: #fff;
+}
+
+#modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100px;
+    height: 100px;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.btn {
+    background-color: purple;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
