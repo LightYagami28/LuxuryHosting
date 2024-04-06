@@ -10,8 +10,7 @@ header h1, p {
     width: 900px;
     color: lawngreen;
     position: relative;
-    top: 300px;
-    left: 500px;
+    right: 800px;
     font-size: 38px;
 }
 
@@ -38,8 +37,10 @@ header button:hover {
     text-align: center;
     width: 900px;
     position: relative;
-
     left: 500px;
+    p{
+    color: black;
+}
 }
 
 #vps{
@@ -48,6 +49,9 @@ header button:hover {
     position: relative;
     top: 300px;
     left: 500px;
+    p{
+    color: black;
+}
 }
 
 footer{
@@ -78,7 +82,11 @@ footer{
 .dark-theme {
     background-color: #222;
     color: #fff;
+
+    p{
+    color: white;
 }
+}{
 
 #modal {
     display: none;
